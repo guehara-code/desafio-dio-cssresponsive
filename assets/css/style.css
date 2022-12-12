@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans";
+}
+
+body {
+    max-width: 1080px;
+    margin: auto;
+    
+}
+
+.header-container {
+    background-image: url("../images/Header_Background.jpg");
+    background-size: cover;
+    padding-top: 4rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+      
+}
+
+.header-container h1 {
+    font-family: "Luckiest Guy";
+    color: #FFFFFF;
+    size: 2rem;
+    font-weight: 400;
+    width: 15rem;
+
+}
+
+.header-container p {
+    
+    color: #FFFFFF;
+    size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+
+
+}
+
+.button-baixar {
+   
+    color: #23272A;
+    size: 1rem;
+    font-weight: 400;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.button-abra {
+   
+    color: #FFFFFF;
+    background-color: #23272A;
+    size: 1rem;
+    font-weight: 400;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    align-self: center;
+    
+}
+
+.section01 {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section01 img {
+    max-width: 100%;
+    align-self: center;
+}
+
+.section01 h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+}
+
+.section01 p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    flex: 1 1 auto;
+   
+}
+
+.section01 h1 {
+    font-family: "Luckiest Guy";
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+#section04 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    
+}
+
+footer div {
+
+    background-color: #23272A;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+footer img {
+    width: 162px;
+    height: 30.77px;
+    display: block;
+    margin: auto;
+   
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (min-width: 600px) {
+    .header-container h1 {
+        display: block;
+        margin: auto;
+        font-size: 3rem;
+        width: 20rem;
+        text-align: center;
+    }
+    .button-container {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .button-baixar {
+        margin-right: 0.5rem;
+    }
+    .button-abra {
+        margin-left: 0.5rem;
+    }
+    .section01 {
+        flex-direction: row;
+    }
+    .section01 h1 {
+        display: block;
+        margin: auto;  
+    }
+    #section02 {
+        flex-direction: row-reverse;
+    }
+    #section04 {
+        flex-direction: column;
+    }
+    
+
+}
